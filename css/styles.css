@@ -1,0 +1,261 @@
+.container {
+    width: 1280px;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+.button {
+    width: 224px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button.primary {
+    background-color: #e21d79;
+    color: #ffffff;
+    transition: all .3s ease;
+}
+
+.button.primary:hover {
+    background-color: #c91e6e;
+    font-weight: 500;
+}
+
+
+.button.secondary {
+    background-color: #ffffff;
+    color: #e21d79;
+    transition: all 0.3s ease;
+}
+
+.button.secondary:hover {
+    background-color: #e9e9e9;
+    font-weight: 500;
+}
+
+
+.flag {
+    font-size: 13px;
+    letter-spacing: -1px;
+    height: 20px;
+
+    width: fit-content;
+    padding: 0 7.5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.flag.blue {
+    background-color: #004875;
+    color: #ffffff;
+}
+
+.flag.green {
+    background-color: #00d9ac;
+    color: #333f48;
+}
+
+header {
+    position: absolute;
+    width: 100vw;
+    padding: 40px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 15px 0 15px;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+header nav ul li a:hover {
+    color: #e21d79;
+    transition: 0.3s ease-in;
+}
+
+.section-banner {
+    min-height: 100vh;
+    background-image: url(../img/banner-principal.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    max-width: 896px;
+    font-size: 80px;
+    letter-spacing: -3px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.section-banner .title {
+    margin: 250px 0 75px;
+}
+
+.section-inform {
+    background-color: #004875;
+    padding: 50px 0 60px;
+}
+
+.section-inform .subtitle {
+    max-width: 747px;
+}
+
+.subtitle {
+    font-size: 58px;
+    letter-spacing: -2px;
+    line-height: 62px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.section-inform .description {
+    max-width: 680px;
+    margin: 50px 0;
+}
+
+.description {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.section-articles {
+    margin-top: 90px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.fourthtitle {
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 28px;
+    color: #e21d79;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.wrapper-lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 35px 0 0;
+    padding-bottom: 80px;
+}
+
+.list-articles {
+    width: 47%;
+}
+
+.list-articles .flag {
+    margin-bottom: 10px;
+}
+
+.thirdtitle {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #004875;
+    font-weight: 700;
+}
+
+.list-articles img {
+    margin-top: 20px;
+}
+
+.list-articles time {
+    font-size: 16px;
+    letter-spacing: -1px;
+    color: #707070;
+    font-weight: 400;
+    margin: 35px 0 0;
+    display: block;
+}
+
+.list-articles li {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.glide {
+    padding-bottom: 75px;
+}
+
+.list-slide {
+    margin: 60px 0 30px;
+}
+
+.list-slide .slide-content>span {
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #004875;
+    font-weight: 700;
+}
+
+.list-slide .slide-title {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #004875;
+    font-weight: 700;
+    min-height: 108px;
+}
+
+.list-slide .slide-content {
+    background-color: #00ceb4;
+    padding: 0 20px 90px;
+}
+
+.glide__slide {
+    width: 350px;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #f5f6f6;
+    border-top: 1px solid #e6e6e6;
+}
+
+footer .container {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
